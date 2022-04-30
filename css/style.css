@@ -36,6 +36,15 @@ section {
 
 
 
+@media only screen and (max-width: 450px) {
+  .navbar-toggler-icon {
+    background-color: #6CC57C;
+    border-block: #6CC57C;
+    
+
+    
+  }
+}
 
 
 
@@ -44,7 +53,7 @@ section {
 -----------------------------------------------------------------------------------------------------------------------*/
 
 .home {
-  padding-top: 20rem;
+  padding-top: 30rem;
   padding-bottom: 25rem;
   
   background: url(../image/page\ 11.png) no-repeat;
@@ -82,8 +91,8 @@ section {
 }
 
 .home .slides-container .slide .content span {
-  color: #666;
-  font-size: 2.5rem;
+  color: #6CC57C;
+  font-size: 5rem;
 }
 
 
@@ -98,15 +107,15 @@ section {
 
 
 
-.home .slides-container .slide .content h3 {
-  font-size: 3.5rem;
+.home .slides-container .slide .content h1 {
+  font-size: 5rem;
   color: #222;
   padding: .5rem 0;
 }
 
 
 @media only screen and (max-width: 450px) {
-  .home .slides-container .slide .content h3 {
+  .home .slides-container .slide .content h1 {
     text-align: center;
     font-size: 3rem;
     color: #e0e0e0;
@@ -180,7 +189,7 @@ section {
 .home2 .slides-container .slide .content span {
   color: #666;
   font-size: 2.5rem;
-  margin-left: 65rem;
+  
 
  
 }
@@ -197,7 +206,7 @@ section {
   font-size: 3.9rem;
   color: #222;
   padding:0;
-  margin-left: 65rem;
+  
 }
 @media only screen and (max-width: 900px) {
   .home2 .slides-container .slide .content h3 {
@@ -293,7 +302,7 @@ section {
 
 .home3 span{
   color: #6CC57C;
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 @media only screen and (max-width: 450px) {
@@ -351,7 +360,7 @@ section {
   display: flex;
 }
 
-.home4 .slides-container .slide .content {
+.home4 .container .slide .content {
   -webkit-box-flex: 1;
       -ms-flex: 1 1 40rem;
           flex: 1 1 4rem;
@@ -359,40 +368,30 @@ section {
           animation: fadeLeft .4s linear .4s backwards;
 }
 
-.home4 span {
+.home4 span{
   color: #6CC57C;
-  font-size: 2rem;
-  
+  font-size: 4rem;
 }
+
 @media only screen and (max-width: 450px) {
-  .home4  span {
-    font-size: 2rem;
+  .home4 .span{
+    text-align: center;
+
+    
   }
 }
 
-@media only screen and (max-width: 900px) {
-  .home4 .slides-container .slide .content span {
-    margin-left: 0;
-  }
-}
-
-.home4  h3 {
-  font-size: 3.9rem;
+.home4 h3 {
+  font-size: 4rem;
   color: #222;
   padding: .5rem 0;
-  
 }
+
 @media only screen and (max-width: 450px) {
-  .home4  h3 {
+  .home4 h3 {
+    
     font-size: 2rem;
-  }
-}
-
-
-
-@media only screen and (max-width: 900px) {
-  .home4 .slides-container .slide .content h3 {
-    margin-left: 0;
+    
   }
 }
 
@@ -402,6 +401,7 @@ section {
           flex: 1 1 10rem;
 
 }
+
 
 
 
